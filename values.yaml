@@ -14,7 +14,7 @@ service:
   targetPort: 8000
 
 hpa:
-  min: 3
+  min: 4
   max: 6
   percent: 80
 
